@@ -28,6 +28,11 @@ This repository contains notes and Ansible playbooks to manage a Kubernetes clus
 ├── LICENSE
 └── README.md
 
+
+
+
+
+
 # Possible Improvements
 - Infra as code could be managed via Terraform. Terraform is a declarative tool whereas Ansible is imperative. Please, bear in mind that everything as code should be managed using declarative directives.
 
