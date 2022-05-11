@@ -11,23 +11,37 @@ This repository contains notes and Ansible playbooks to manage a Kubernetes clus
 # Project structure
 ```bash
 .
-├── ansible/
-│   └── collections/
-│       └── customizer/
-│           └── contabo/
-│               ├── docs/
-│               ├── galaxy.yml
-│               ├── plugins/
-│               │   └── README.md
-│               ├── README.md
-│               └── roles/
-├── infrastructure/
-│   ├── config-as-code/
-│   ├── infra-as-code/
-│   │   └── README.md
-│   └── README.md
+├── docs/
+│   └── 1-System_requirements.md
 ├── LICENSE
-└── README.md
+├── README.md
+└── src/
+    ├── ansible/
+    │   ├── collections/
+    │   │   ├── customizer/
+    │   │   │   ├── contabo/
+    │   │   │   │   ├── docs/
+    │   │   │   │   ├── galaxy.yml
+    │   │   │   │   ├── plugins/
+    │   │   │   │   │   └── README.md
+    │   │   │   │   ├── README.md
+    │   │   │   │   └── roles/
+    │   │   │   └── kubernetes/
+    │   │   │       ├── docs/
+    │   │   │       ├── galaxy.yml
+    │   │   │       ├── plugins/
+    │   │   │       │   └── README.md
+    │   │   │       ├── README.md
+    │   │   │       └── roles/
+    │   │   └── requirements.yaml
+    │   └── inventories/
+    │       ├── kubernetes/
+    │       └── systems/
+    ├── config-as-code/
+    ├── containers/
+    ├── infra-as-code/
+    │   └── README.md
+    └── kubernetes-install/
 ```
 
 # Possible Improvements
