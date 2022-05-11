@@ -9,6 +9,7 @@ This repository contains notes and Ansible playbooks to manage a Kubernetes clus
 - Provide material to prepare the Kubernetes certifications via Ansible playbooks and documentation.  
 
 # Project structure
+```bash
 .
 ├── ansible/
 │   └── collections/
@@ -27,11 +28,7 @@ This repository contains notes and Ansible playbooks to manage a Kubernetes clus
 │   └── README.md
 ├── LICENSE
 └── README.md
-
-
-
-
-
+```
 
 # Possible Improvements
 - Infra as code could be managed via Terraform. Terraform is a declarative tool whereas Ansible is imperative. Please, bear in mind that everything as code should be managed using declarative directives.
