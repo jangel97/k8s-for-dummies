@@ -326,6 +326,9 @@ Gitps = IaC + MRs + CI/CD
 Gitps = CaC + MRs + CI/CD
 ```
 
+What is a Gitlab MR? https://docs.gitlab.com/ee/user/project/merge_requests/
+What is CI/CD? https://www.redhat.com/topics/devops/what-is-ci-cd
+
 My favourite tools for GitOps:
 - https://docs.gitlab.com/ee/ci/
 - https://argo-cd.readthedocs.io/en/stable/
@@ -338,5 +341,38 @@ In my opinion some of the benefits of the previous approaches are:
 
 
 # 6. Work methodologies
+
+The way SRE and DevOps team deliver new features is key, project management plays a vital role in agility. The defacto model in the industry nowadays is Agile https://scrumguides.org/scrum-guide.html#daily-scrum
+
+What is Agile?
+Agile software development encompasses an approach to decision making in software projects, which refers to software engineering methods based on iterative and incremental development, where requirements and solutions evolve over time as needed. of the project
+
 # 7. Conclusions
+- The market adapts to new needs.
+- New technological solutions are born to solve the needs.
+- New needs and technologies also pose new challenges. The IT sector is transformed into a radically new paradigm.
+- Open-source is vital in this transformation. Without community effort none of the tools that provide the transformation would possibly exist.
+- Even though everything changes, the base is ALWAYS the same.
+- No solution is perfect. It all depends on the use case or the problem we are trying to approximate.
+
 # 8. Resources
+https://en.wikiversity.org/wiki/System_administration
+https://www.redhat.com/es/services/training-and-certification
+https://www.cncf.io/certification/training/
+https://www.elastic.co/es/training/
+https://www.cisco.com/c/en/us/training-events/training-certifications/certifications.html
+https://www.redhat.com/es/topics/devops
+https://aws.amazon.com/es/devops/what-is-devops/
+https://azure.microsoft.com/en-us/overview/what-is-devops/
+https://www.redhat.com/es/topics/devops/what-is-sre
+https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
+https://docs.gitlab.com/ee/ci/
+https://argo-cd.readthedocs.io/en/stable/
+https://www.ansible.com/
+https://www.terraform.io/
+https://www.redhat.com/en/topics/containers/what-is-kubernetes
+https://www.redhat.com/topics/containers/kubernetes-architecture
+https://kubernetes.io/
+https://docs.okd.io/
+https://en.wikipedia.org/wiki/Kubernetes
+https://podman.io/
