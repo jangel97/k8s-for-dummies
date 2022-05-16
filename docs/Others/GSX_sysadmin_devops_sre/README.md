@@ -1,12 +1,24 @@
 # IT Industry Challenges 
+Disseration for Rovira i Virgily University students about IT Industry. GSX is the system administration subject in the curriculum.
+
 Goals:
 - How a systems department works and different models that I have found so far and vision of the possible roles that systems specialists play in companies.
 - What are the possible futures of systems specialists (DevOps, SRE, Kubernetes, etc.), and how is the world of infrastructure evolving to face different challenges. (A booming industry indeed). This direction that the market is taking is in order to overcome different challenges and adapt to new needs.
 - During the talk I will try to emphasize that OpenSource has revolutionized and is revolutionizing this entire world.
 - The importance of the GSX subject since it provides a good base knowledge to start a career in the world of infrastructure. For example, it is impossible to be an SRE or Kubernetes specialist without a strong knowledge of systems and networks, since this is the basis.
 
+The speech begins introducing how the IT industry works and what are tha current challenges and solutions. Afterwards, it gets a bit techy and introduces concepts to address the challenges in the IT industry. This doc is meant to provide a brief introduction, so none of the topics are covered in depth.
+
+Only two main problems will be addressed. Other challenges have been left aside due to the scope of the dissertation.
+
 Topics:
   - 1. [System administration in the real workd](https://github.com/jangel97/k8s-for-dummies/edit/main/docs/Others/GSX_sysadmin_devops_sre/README.md#1-sysadmin-in-the-real-world)
+  - 2. [Challenges faced by systems departments](https://github.com/jangel97/k8s-for-dummies/edit/main/docs/Others/GSX_sysadmin_devops_sre/README.md#2-challenges-faced-by-systems-departments)
+  - 3. [Current solutions](https://github.com/jangel97/k8s-for-dummies/edit/main/docs/Others/GSX_sysadmin_devops_sre/README.md#3-current-solutions)
+  - 4. [Containers, Kubernetes and Cloud](https://github.com/jangel97/k8s-for-dummies/edit/main/docs/Others/GSX_sysadmin_devops_sre/README.md#4-containers-kubernetes-and-cloud)
+  - 5. [Infrastructure as code, configuration as code, and GitOps](https://github.com/jangel97/k8s-for-dummies/edit/main/docs/Others/GSX_sysadmin_devops_sre/README.md#5-infrastructure-as-code-configuration-as-code-and-gitops)
+  - 6. [Work methodologies](https://github.com/jangel97/k8s-for-dummies/edit/main/docs/Others/GSX_sysadmin_devops_sre/README.md#6-work-methodologies)
+  - 7. [Conclusions](https://github.com/jangel97/k8s-for-dummies/edit/main/docs/Others/GSX_sysadmin_devops_sre/README.md#7-conclusions)
 
 # 1. Sysadmin in the real world
 Systems administration is the field of work in which someone manages one or more systems, be they software, hardware, servers, or workstations. Its goal is to ensure that systems work efficiently and effectively.
@@ -71,3 +83,45 @@ We could possibly split the responsibilities of a system admin in three differen
   
     You have to be up to date and expand in different fields of knowledge. The more things you know, the more value it adds to you and the better you can define your path as a technician.
     Official certifications, from Red Hat, other manufacturers or CNCF.
+    
+# 2. Challenges faced by systems departments
+## Problem 1: Systems department as bottleneck of an IT organisation
+
+What happens, imagine there are 1000 developer teams with 10k+ VMs in an organization and systems team. The systems department  becomes a brutal bottleneck for the organization and the whole company loses agility, which is key against competitors. Also, how reliable are more than 10k systems managed by a single systems team?
+
+Scaling up (adding technical resources) is not a scalable solution to the problem.
+Scaling out horizontally and dividing the systems department is an interesting alternative. The concept of productization is interesting here. An SLA can be defined per product. In this case, a given product would be an infrastructure or automation offering.
+
+Therefore, the market is evolving in a different direction, and as new problems appear, the sector has to adapt more and more. Agility is key for organizations, and business value depends on how reliable and compliant the systems are.
+
+An interesting strategy to solve this problem is self-service, providing tooling and each team of developers being responsible for their own systems. The systems team now has a totally different role in this regard, and it is that now it does not manage teams but rather provides the tools to make possible the administration and access to the functionalities of each of the products. Documentation is very important here. Also automation, if you can give access to certain functionality of a product through a form is ideal. For example, a product could be managing infrastructure as code on AWS, and the workflow that enables access could be to create a repository with the base infrastructure and an automation that builds the infrastructure as code.
+
+The idea is that the more self-service and autonomous the teams are, the less operational work, the better offering and the greater agility for the organization. Of course, it is important to help the teams if necessary to use the tooling, consultation.
+
+## Problem 2: Gap between systems and development departments
+DevOps movement was born to narrow the gap between both departments.
+This movement dates back to between 2007 and 2008, when the software development and IT operations communities came together to address a pressing concern in the industry. Both parties felt that there was a fatal level of dysfunction caused by the traditional model of software development. In the model, the people who develop the code and those who implement and support it work independently, organizationally, and functionally. Additionally, developers and IT professionals (Ops) worked in siled teams with different leadership, KPIs, goals, and physical locations.
+
+Both communities stated that there was a better way of doing things than working in silos. They started online forums and local meetings to develop a way forward. In 2009, the first DevOps event was held in Belgium to achieve greater efficiency in software development. From its humble beginnings, DevOps is a hot topic in IT today.
+
+Challenges addressed here:
+
+1. Overcome the development versus operations mindset
+2. Faster time to market
+3. Speed up time to resolution of development issues
+4. Optimize productivity
+
+Personally I like to explain the conflict between Ops and Dev with the factory metaphor:
+Imagine a factory where there are two teams:
+- Team A dedicated to going to work to produce at the factory.
+- Team B that goes into building plants and reactors and maintaining them. If needed provides new features in the factory tools and creates new plants and tooling for team A.
+
+It turns out that these teams do not understand each other, because neither of them is capable of understanding the needs of the other, here is a major collaboration problem. In the end, this problem ends up generating unproductiveness and loss of business value, because of a considerable lack of agility.
+
+Possible solutions? Check out the following topics.
+
+# 3. Current solutions
+# 4. Containers, Kubernetes and Cloud
+# 5. Infrastructure as code, configuration as code, and GitOps
+# 6. Work methodologies
+# 7. Conclusions
