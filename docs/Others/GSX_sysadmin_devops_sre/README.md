@@ -351,28 +351,48 @@ Agile software development encompasses an approach to decision making in softwar
 - The market adapts to new needs.
 - New technological solutions are born to solve the needs.
 - New needs and technologies also pose new challenges. The IT sector is transformed into a radically new paradigm.
-- Open-source is vital in this transformation. Without community effort none of the tools that provide the transformation would possibly exist.
-- Even though everything changes, the base is ALWAYS the same.
+- Open-source is vital in this transformation. Without community effort none of the tools that provide the transformation would possibly exist. Open-source shapes the world.
+- Even though everything changes, the knowledge is ALWAYS the same. I personally believe that University is a great way to acquire this basic knowledge.
 - No solution is perfect. It all depends on the use case or the problem we are trying to approximate.
+- DevOps and Site Reliability Engineering have revolutionized providing solutions to both aforemetioned problems
 
 # 8. Resources
 https://en.wikiversity.org/wiki/System_administration
+
 https://www.redhat.com/es/services/training-and-certification
+
 https://www.cncf.io/certification/training/
+
 https://www.elastic.co/es/training/
+
 https://www.cisco.com/c/en/us/training-events/training-certifications/certifications.html
+
 https://www.redhat.com/es/topics/devops
+
 https://aws.amazon.com/es/devops/what-is-devops/
+
 https://azure.microsoft.com/en-us/overview/what-is-devops/
+
 https://www.redhat.com/es/topics/devops/what-is-sre
+
 https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
+
 https://docs.gitlab.com/ee/ci/
+
 https://argo-cd.readthedocs.io/en/stable/
+
 https://www.ansible.com/
+
 https://www.terraform.io/
+
 https://www.redhat.com/en/topics/containers/what-is-kubernetes
+
 https://www.redhat.com/topics/containers/kubernetes-architecture
+
 https://kubernetes.io/
+
 https://docs.okd.io/
+
 https://en.wikipedia.org/wiki/Kubernetes
+
 https://podman.io/
