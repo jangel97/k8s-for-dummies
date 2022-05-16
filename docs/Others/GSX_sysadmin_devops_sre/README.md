@@ -262,12 +262,81 @@ Kubernetes architecture components or K8s components include the Kubernetes cont
 - https://www.redhat.com/en/topics/containers/what-is-kubernetes
 - https://www.redhat.com/topics/containers/kubernetes-architecture
 - https://kubernetes.io/
+- https://docs.okd.io/
 - https://en.wikipedia.org/wiki/Kubernetes
 
 ## Cloud
+Cloud Computing consists of offering computing services through the network using cloud storage. With this type of service, the user does not have to install anything on his computer, however, he will have access to different services (from the most everyday to the technical).
 
+*Public Cloud:* virtual resources and computer services provided by third parties via the Internet for several mandates simultaneously.
+
+*Private Cloud:* computing services and computing environments reserved for an organization such as intranets or data centers. In other words, your services are not provided or hosted for multiple clients.
+
+*Hybrid Cloud:* Combines public and private cloud services. To do this, it uses local data centers and external public cloud services.
+
+*Multicloud:* Simultaneous use of the same cloud model (either public or private cloud) from different cloud providers. Thus, companies use several private or public clouds in parallel.
+
+**Pros:**
+- Reduced IT costs (the cost of system upgrades, new hardware and software may be included in your contract, you no longer need to pay wages for expert staff, your energy consumption costs may be reduced, there are fewer time delays).
+- Scalability
+  Your business can scale up or scale down your operation and storage needs quickly to suit your situation, allowing flexibility as your needs change.
+- Access to multiple integrations. Cloud providers usually offer multiple products which integrate with each other, creating awesome integrations.
+
+**Cons:**
+- Data protected environments.
+  Depending on the data confidentiality it may not be possible to run workloads on cloud-providers.
+- Loss of control of the underlying resources. 
+  The underlying resources are managed by the cloud provider.
+- Vendor lock-in. 
+  The vendor lock-in problem in cloud computing occurs when clients become reliant (i.e., locked-in) on a single cloud provider's technological implementation and are unable to switch vendors in the future without incurring significant fees, legal restrictions, or technical incompatibilities.
+
+** Main cloud providers **
+- https://aws.amazon.com/
+- https://azure.microsoft.com/
+- https://cloud.google.com
 
 # 5. Infrastructure as code, configuration as code, and GitOps
+There are other approaches that also try to solve the challenges that we have seen in the previous points. They are not contrary ideas nor do they try to compete with what I have explained before, in fact they are complementary. It is worth commenting on these approaches, given that the market is going in this direction and they are part of the resolution of the challenges that we have discussed.
+
+**Infrastructure as code
+IaC is about describing the desired infrastructure in a file, written in a structured manner (code), so that an automation tool or engine can take that description and provision the infrastructure, or reconfigure an already-deployed infrastructure so it matches that description.
+
+For example, I can have my virtual machines and my configurations in code. If I introduce a change in the code I can propagate the changes to all my infrastructure, I don't have to go machine by machine or do manual operations, everything is in the form of code. The code can be maintained by a team of few people, and it can manage a giant infrastructure in a “simple” way. However, a giant infrastructure requires many people to manage it.
+Also the code can be tested, have pipelines, amongst many other stuff.
+The idea is that if we have everything as code, it is much easier to maintain things, and automate all kind of operational tasks. 
+This approach is vital for SRE, if you need to manage thousands of resources, there is no way around it. 
+
+My favorites tools for IaaC:
+- https://www.ansible.com/
+- https://www.terraform.io/
+
+## Configuration as code
+CaC is the practice of managing configuration files in a repository. Config files establish the parameters and settings for applications, server processing, operating systems. By managing your config files alongside your code, you get all the benefits of version control for your entire product.
+If I can map my config files, for example via Ansible, I can manage seemingly the configuration on thousands of systems.
+
+My favorites tools for CaaC:
+- https://www.ansible.com/
+- https://github.com/ansible/awx
+
+## GitOps
+```
+Gitps = IaC + MRs + CI/CD
+```
+```
+Gitps = CaC + MRs + CI/CD
+```
+
+My favourite tools for GitOps:
+- https://docs.gitlab.com/ee/ci/
+- https://argo-cd.readthedocs.io/en/stable/
+
+In my opinion some of the benefits of the previous approaches are:
+- Scalability
+- Standardization
+- Traceability
+- Increased Productivity
+
+
 # 6. Work methodologies
 # 7. Conclusions
 # 8. Resources
