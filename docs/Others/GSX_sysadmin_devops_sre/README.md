@@ -1,4 +1,4 @@
-# 0. Introduction
+# IT Industry Challenges 
 Goals:
 - How a systems department works and different models that I have found so far and vision of the possible roles that systems specialists play in companies.
 - What are the possible futures of systems specialists (DevOps, SRE, Kubernetes, etc.), and how is the world of infrastructure evolving to face different challenges. (A booming industry indeed). This direction that the market is taking is in order to overcome different challenges and adapt to new needs.
