@@ -7,7 +7,7 @@ Goals:
 - During the talk I will try to emphasize that OpenSource has revolutionized and is revolutionizing this entire world.
 - The importance of the GSX subject since it provides a good base knowledge to start a career in the world of infrastructure. For example, it is impossible to be an SRE or Kubernetes specialist without a strong knowledge of systems and networks, since this is the basis.
 
-The speech begins introducing how the IT industry works and what are tha current challenges and solutions. Afterwards, it gets a bit techy and introduces concepts to address the challenges in the IT industry. This doc is meant to provide a brief introduction, so none of the topics are covered in depth.
+The speech begins introducing how the IT industry works and what are tha current challenges and solutions. Afterwards, it gets a bit techy and introduces concepts to address the challenges in the IT industry. This doc is meant to provide a brief introduction, so none of the topics are covered in depth. It is meant for students or people getting started in the IT industry.
 
 Only two main problems will be addressed. Other challenges have been left aside due to the scope of the dissertation.
 
@@ -19,6 +19,7 @@ Topics:
   - 5. [Infrastructure as code, configuration as code, and GitOps](https://github.com/jangel97/k8s-for-dummies/edit/main/docs/Others/GSX_sysadmin_devops_sre/README.md#5-infrastructure-as-code-configuration-as-code-and-gitops)
   - 6. [Work methodologies](https://github.com/jangel97/k8s-for-dummies/edit/main/docs/Others/GSX_sysadmin_devops_sre/README.md#6-work-methodologies)
   - 7. [Conclusions](https://github.com/jangel97/k8s-for-dummies/edit/main/docs/Others/GSX_sysadmin_devops_sre/README.md#7-conclusions)
+  - 8. [Resources](https://github.com/jangel97/k8s-for-dummies/edit/main/docs/Others/GSX_sysadmin_devops_sre/README.md#8-resources)
 
 # 1. Sysadmin in the real world
 Systems administration is the field of work in which someone manages one or more systems, be they software, hardware, servers, or workstations. Its goal is to ensure that systems work efficiently and effectively.
@@ -121,7 +122,53 @@ It turns out that these teams do not understand each other, because neither of t
 Possible solutions? Check out the following topics.
 
 # 3. Current solutions
+## Solution to problem I. Site Reliability Engineering
+Let us suppose an organisation of thousands of development teams. Imagine if systems team is required to manage resourcses, corporate network, Storage, accesses and so on for all developer teams. It is just unfeasible.
+
+One solution to this problem is the Site Reliability Engineering. Let's split each responsability in a product offering managed by a virtual team behind IT.
+
+Each team should be responsible of devlivering the tooling, documentation and automation to the development teams so they can, by themselves, manage their infrastructure.
+
+SRE is what you get when you treat operations like a software problem.
+The SRE mission is to protect, deliver, and advance the software and systems behind all different environments with an ever-vigilant eye on availability, latency, performance, and capacity. In order to achieve it, all infrastructure must be managed seemengly.
+
+Standardization and automation are two important elements of the SRE model. Site reliability engineers must always look for ways to improve and automate operational tasks.
+
+## Solution to problem II. DevOps engineering
+
+In order to narrow the gap between Ops and Devs the DevOps movement was born (aforementioned in previous topic).
+The idea of DevOps is that if you are a company with 100 developers and you compete against one that has 10,000. The only way you can make is by being agile. This implies important changes in organizations. Among these, one of the most important changes is the idea that the systems department and the development department have to begin to understand each other.
+
+If you remember the factory metaphor, it is similar to the ongoing situation in the IT industry. 
+
+In the case of the IT Industry the idea of a hybrid profile is born. A profile that is capable of mediating between both teams.
+In the case of software engineering, what this profile does is that the developer builds and deploys applications automatically and does not have to worry about the environment or the infrastructure. Concepts like CI/CD apply here. In the end, these new professionals build a platform where build and deploy is automatic. These new professionals know how the applications work (not at the level of a developer) as well as its requirements, and they also have the infrastructure knowledge to maintain this automatic construction and deployment platform.
+
+Although DevOps is a cultural movement, some IT organisations call DevOps Engineer to this role, the main responsibility of which, is to narrow down the gap between Ops and Devs and speed up the delivery of applications, features and bugs.
+
+Currently, in an organisation it is possible that system team has evolved into a SRE team and provide tooling, docs and consultation, so teams can manage infrastructure seemingly. As for DevOps engineers, it is possible that they exist either in the same Development teams or in a specific Delivery team. DevOps teams must be capable of using the SRE tooling to manage the required infrastructure for the applications to run.
+
+These types of professionals are highly demanded because they significantly increase agility in organizations.
+
+Currently, in some organizations the roles of devops and SRE can be a bit mixed. You may apply to a devops position and see that the requirements ask for a bit of SRE and DevOps.
+
+You can find what are the responsabilities for a DevOps engineer or a Site Reliability Engineer in the following links:
+- https://www.linkedin.com/jobs/search/?keywords=sre
+- https://www.linkedin.com/jobs/search/?keywords=devops
+
+
 # 4. Containers, Kubernetes and Cloud
+
+The changes required in the IT organisations to tackle the aforementioned problems, require new technology. In this topic we will introduce new technologies vital to address both problematics.
+
+## Containers
+
+## Kubernetes 
+
+## Cloud
+
+
 # 5. Infrastructure as code, configuration as code, and GitOps
 # 6. Work methodologies
 # 7. Conclusions
+# 8. Resources
