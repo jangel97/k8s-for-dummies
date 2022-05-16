@@ -345,6 +345,7 @@ In my opinion some of the benefits of the previous approaches are:
 The way SRE and DevOps team deliver new features is key, project management plays a vital role in agility. The defacto model in the industry nowadays is Agile https://scrumguides.org/scrum-guide.html#daily-scrum
 
 What is Agile?
+
 Agile software development encompasses an approach to decision making in software projects, which refers to software engineering methods based on iterative and incremental development, where requirements and solutions evolve over time as needed. of the project
 
 # 7. Conclusions
