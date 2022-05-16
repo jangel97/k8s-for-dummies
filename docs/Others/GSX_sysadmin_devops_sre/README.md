@@ -163,6 +163,64 @@ The changes required in the IT organisations to tackle the aforementioned proble
 
 ## Containers
 
+Linux containers are technologies that allow you to package and isolate your applications along with the entire runtime environment, that is, with all the files that they require to run. This allows you to move the application inside the container between environments (development, test, production, etc.), without losing any of its functionality.
+
+![image](https://images.contentstack.io/v3/assets/blt300387d93dabf50e/bltb6200bc085503718/5e1f209a63d1b6503160c6d5/containers-vs-virtual-machines.jpg)
+
+You can easily build your own containers (or containerize existing ones). It's a nice consistent way to package your apps.
+https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
+
+**Pros**
+- *Less overhead*
+  
+  Containers require less system resources than traditional or hardware virtual machine environments because they don’t include operating system images.
+- *Increased portability*
+
+  Applications running in containers can be deployed easily to multiple different operating systems and hardware platforms.
+- *More consistent operation*
+
+  DevOps teams know applications in containers will run the same, regardless of where they are deployed.
+- *Greater efficiency*
+
+  Containers allow applications to be more rapidly deployed, patched, or scaled.
+- *Better application development*
+
+  Containers support agile and DevOps efforts to accelerate development, test, and production cycles.
+
+**Use cases**
+- *“Lift and shift” existing applications into modern cloud architectures*
+  
+  Some organizations use containers to migrate existing applications into more modern environments. While this practice delivers some of the basic benefits of operating system virtualization, it does not offer the full benefits of a modular, container-based application architecture.
+  
+  Lift and shift is a strategy for moving an application or operation from one environment to another without stopping to redesign the app or operations workflow.
+  
+- *Refactor existing applications for containers*
+  Although refactoring is much more intensive than lift-and-shift migration, it enables the full benefits of a container environment.
+- *Develop new container-native applications*
+  Much like refactoring, this approach unlocks the full benefits of containers.
+- *Provide better support for microservices architectures*
+  Distributed applications and microservices can be more easily isolated, deployed, and scaled using individual container building blocks.
+- *Provide DevOps support for continuous integration and deployment (CI/CD)*
+  Container technology supports streamlined build, test, and deployment from the same container images.
+- *Provide easier deployment of repetitive jobs and tasks*
+  Containers are being deployed to support one or more similar processes, which often run in the background, such as ETL functions or batch jobs.
+  
+Containers in the end are Linux Processes. In order to provide isolation and control of resources they rely on following Kernel Linux features:
+- Linux namespaces (isolation) https://en.wikipedia.org/wiki/Linux_namespaces
+- cgroups v2 (control of resources) https://www.kernel.org/doc/html/latest/admin-guide/cgroup-v2.html
+- chroot (file system isolation) https://btholt.github.io/complete-intro-to-containers/chroot
+
+For now it's enough to provide a brief introducion into the container concept. If you wish to learn more about this, please, check out the following resources:
+- https://podman.io/
+- https://docs.podman.io/en/latest/Tutorials.html
+- https://developers.redhat.com/blog/2018/08/29/intro-to-podman
+- https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
+- https://kubernetes.io/docs/setup/production-environment/container-runtimes/#containerd
+- https://kubernetes.io/docs/setup/production-environment/container-runtimes/#cri-o
+- https://kubernetes.io/docs/setup/production-environment/container-runtimes/#docker
+- https://kubernetes.io/docs/setup/production-environment/container-runtimes/#mcr
+- https://www.aquasec.com/cloud-native-academy/container-security/container-runtime/
+
 ## Kubernetes 
 
 ## Cloud
