@@ -186,6 +186,8 @@ https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
 - *Better application development*
 
   Containers support agile and DevOps efforts to accelerate development, test, and production cycles.
+  
+The pros make them specially suitable for microservices architectures. https://microservices.io/
 
 **Use cases**
 - *“Lift and shift” existing applications into modern cloud architectures*
@@ -222,6 +224,45 @@ For now it's enough to provide a brief introducion into the container concept. I
 - https://www.aquasec.com/cloud-native-academy/container-security/container-runtime/
 
 ## Kubernetes 
+The name Kubernetes originates from Greek, meaning helmsman or pilot. K8s as an abbreviation results from counting the eight letters between the "K" and the "s". Google open-sourced the Kubernetes project in 2014. Kubernetes combines over 15 years of Google's experience running production workloads at scale with best-of-breed ideas and practices from the community.
+
+What is Kubernetes and how does it work?
+Kubernetes is an open source container orchestration platform designed to automate the use, scaling, and management of containerized applications. In fact, Kubernetes has established itself as the de facto standard for container orchestration.
+
+Kubernetes makes it easy to use and operate applications in a microservices architecture. To do this, an abstraction layer is created on top of a group of hosts, so that development teams can deploy their applications and let this technology manage activities such as:
+- Control resource consumption by application or system.
+- Evenly spread application load across a host infrastructure.
+- Automatically balance load requests between different instances of an application.
+- Monitor resource consumption and resource limits to automatically prevent applications from consuming too many resources.
+- Move an application instance from one host to another if there is a shortage of resources on a host, or if the host dies.
+- Automatically take advantage of additional resources available when a new host is added to the cluster.
+- Easily perform canary rollouts and rollbacks. These displays are named after the canaries that were used by miners in the past to detect gas leaks underground. In this context, the Canary deployment allows us to observe the impact of a deployment with a low impact on users.
+
+**Pros:**
+- Scalability and load balancing
+- Isolation of processes and applications
+- Ease of deployment
+- Automatic resource optimization resources automatically
+- High availability
+
+**Cons:**
+- Extremely difficult to administer.
+
+**Use cases:**
+- Manage and orchestrate thousands of containers.
+- Use declarative style to deploy applications accross the cluster seemingly.
+
+**Kubernetes architecture:**
+![image](https://d33wubrfki0l68.cloudfront.net/2475489eaf20163ec0f54ddc1d92aa8d4c87c96b/e7c81/images/docs/components-of-kubernetes.svg)
+A Kubernetes cluster is a form of Kubernetes deployment architecture. Basic Kubernetes architecture exists in two parts: the control plane and the nodes or compute machines. Each node could be either a physical or virtual machine and is its own Linux environment. Every node also runs pods, which are composed of containers.
+
+Kubernetes architecture components or K8s components include the Kubernetes control plane and the nodes in the cluster. The control plane machine components include the Kubernetes API server, Kubernetes scheduler, Kubernetes controller manager, and etcd. Kubernetes node components include a container runtime engine or docker, a Kubelet service, and a Kubernetes proxy service.
+
+**Resources:**
+- https://www.redhat.com/en/topics/containers/what-is-kubernetes
+- https://www.redhat.com/topics/containers/kubernetes-architecture
+- https://kubernetes.io/
+- https://en.wikipedia.org/wiki/Kubernetes
 
 ## Cloud
 
