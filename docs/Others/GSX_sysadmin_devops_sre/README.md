@@ -95,9 +95,9 @@ Scaling out horizontally and dividing the systems department is an interesting a
 
 Therefore, the market is evolving in a different direction, and as new problems appear, the sector has to adapt more and more. Agility is key for organizations, and business value depends on how reliable and compliant the systems are.
 
-An interesting strategy to solve this problem is self-service, providing tooling and each team of developers being responsible for their own systems. The systems team now has a totally different role in this regard, and it is that now it does not manage teams but rather provides the tools to make possible the administration and access to the functionalities of each of the products. Documentation is very important here. Also automation, if you can give access to certain functionality of a product through a form is ideal. For example, a product could be managing infrastructure as code on AWS, and the workflow that enables access could be to create a repository with the base infrastructure and an automation that builds the infrastructure as code.
+An interesting strategy to solve this problem consists in providing tooling and each team of developers being responsible for their own systems. The systems team now has a totally different role in this regard, and it is that now it does not manage teams but rather provides the tools to make possible the administration and access to the functionalities of each of the products. Documentation is very important here. Also automation, if you can give access to certain functionality of a product through a form is ideal.
 
-The idea is that the more self-service and autonomous the teams are, the less operational work, the better offering and the greater agility for the organization. Of course, it is important to help the teams if necessary to use the tooling, consultation.
+The idea is that the more autonomous the teams are, the less operational work, the better offering and the greater agility for the organization. Of course, it is important to help the teams if necessary to use the tooling, consultation.
 
 ## Problem 2: Gap between systems and development departments
 DevOps movement was born to narrow the gap between both departments.
